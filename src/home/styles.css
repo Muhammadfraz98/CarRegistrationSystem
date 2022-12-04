@@ -1,0 +1,78 @@
+.crs-container{
+    color: wheat;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 10px;
+        border-radius: 10px;
+        height: 80vh;
+        width: 100%;
+}
+
+.crs-header {
+    padding-bottom: 15px;
+    border-bottom: 1px solid wheat;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crs-table{
+        background: white;
+            border-radius: 3px;
+}
+
+.crs-card-group{
+    display: flex;
+        gap: 20px;
+}
+
+.crs-add-card{
+    background: #ffd2d2f2;
+        color: #915757;
+        border-radius: 10px;
+        padding: 10px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 16px;
+            font-weight: 600;
+            width: 160px;
+}
+
+.ant-select-selector{
+    width: 178px !important;
+}
+
+.categories-list{
+        max-height: 255px;
+            overflow-y: scroll;
+            padding-right: 5px;
+}
+.category{
+        display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            padding: 10px;
+            color: black;
+            border-radius: 10px;
+}
+
+
+.crs-add-card:hover{
+        box-shadow: 0 0 11px rgb(255 255 255 / 80%);
+}
+
+.add-text{
+    display: flex;
+        align-items: center;
+        gap: 15px;
+}
+
+
+.cat-table{
+    height: 135px;
+        overflow-y: scroll;
+}

@@ -1,0 +1,33 @@
+.app-container {
+    min-height: 350px;
+    height: 100vh;
+    background-image: url("https://www.loans.com.au/contentAsset/image/a9b75944-6806-4525-ae4d-1dcb3d2d3594");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+p{
+    margin: 0;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
